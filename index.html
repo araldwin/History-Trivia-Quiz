@@ -8,6 +8,84 @@
     <title>History Trivia Quiz</title>
 </head>
 <body>
+
+    <div class="title_box">
+        <h1 >History Trivia Quiz</h1>
+        <p>Think you know a thing or two about the past? Put your smarts to the test with these history trivia questions.</p>
+      </div>
+  
+       <!-- Start Quiz Button -->
+       <div class="start_btn"><button class=golden_btn>Start Quiz</button></div>
+  
+      <!-- Info Box -->
+      <div class="info_box">
+        <div class="info_title">
+          <span>Rules of this Quiz</span>
+        </div>
+        <div class="info_list">
+          <div class="info">* You will have only 10 seconds per each question</div>
+          <div class="info">* Once you select answer, you can't reselect.</div>
+          <div class="info">* You can't exit from the Quiz while you're playing.</div>
+          <div class="info">* You'll get scores on the basis of your correct answers.</div>
+          <div class="info">* You can't select any option once time goes off.</div>
+        </div>
+        <div class="buttons">
+          <button class="quit golden_btn">Exit Quiz</button>
+          <button class="restart golden_btn">Continue</button>
+        </div>
+      </div>
+      
+  <!-- Quiz Box -->
+  <div class="quiz_box">
+    <header>
+      <div>
+        <div class="score">Score: <span id="cor_scr">0</span></div>
+      </div>
+      <div class="timer">
+        <div class="time_text">Time left</div>
+        <div class="timer_sec">10</div>
+      </div>
+      <div class="time_line"></div>
+    </header>
+      <div class="que_sec">
+        <div class="que_text">
+          <!-- <span>The Great 'what' of London occurred in 1666?</span> -->
+        </div>
+        <div class="option_list">
+          <div class="option">
+            <span>Fire</span>
+            <div class="icon tick"><i class="fa-solid fa-check"></i></div>
+          </div>
+          <div class="option">
+            <span>Flood</span>
+            <div class="icon cross"><i class="fa-solid fa-xmark"></i></div>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Quiz Box Footer -->
+      <footer>
+        <div class="total_que">
+          <!-- <span><p>2</p>of<p>10</p>Questions</span> -->
+        </div>
+        <button class="next_btn golden_btn">Next</button>
+      </footer>
+  </div>
+  
+  <!-- Result Box -->
+  <div class="result_box">
+    <div class="complete_text">You've completed the Quiz!</div>
+    <div class="score_text">
+      <span>You got only <span>2</span> out of <span>10</span></p>
+    </div>
+    <div class="quote">
+      “History is always written by the winners. When two cultures clash, the looser is obliterated, and the winner writes the history books-books which glorify their own cause and disparage the conquered foe.”
+    </div>
+  
+    <div class="buttons">
+      <button class="quit golden_btn">Quit Quiz</button>
+    </div>
+  </div>
     
     <script src="/js/script.js"></scripts>
 </body>

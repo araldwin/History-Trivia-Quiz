@@ -14,7 +14,8 @@
 }
 
 .start_btn,
-.info_box{
+.info_box,
+.quiz_box{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -107,4 +108,171 @@
     font-weight: 700;
 }
 
+.quiz_box{
+    width: 55%;
+    background: #fff;
+    border-radius: 5px;
+}
 
+.quiz_box header{
+    position: relative;
+    z-index: 99;
+    height: 70px;
+    padding: 0 30px;
+    background:#fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px 5px 0 0;
+    box-shadow: 0px 3px 5px 1px rgba(0,0,0,0.1);
+}
+
+.quiz_box header .score{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.quiz_box header .timer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 145px;
+    height: 45px;
+    background: #fef1a2;
+    border: 1px solid #bc881b;
+    border-radius: 5px;
+    padding: 0 8px;
+}
+
+.quiz_box header .timer .time_text{
+    font-weight: 400;
+    font-size: 17px;
+    user-select: none;
+}
+
+.quiz_box header .timer .timer_sec{
+    font-size: 18px;
+    font-weight: 500;
+    background: #343a40;
+    height: 30px;
+    color: #fff;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 5px;
+    border: 1px solid #343a40;
+    user-select: none;
+}
+
+.quiz_box .que_sec{
+    padding: 25px 30px 20px 30px;
+    background-image: url(./docs/Rusticcollagebooksparchmentsshabby\ chicelegantvintage.png);
+}
+
+.quiz_box .que_sec .que_text{
+    font-size: 25px;
+    font-weight: 700;
+    text-shadow: 2px 2px 4px #fff;
+}
+
+.quiz_box .que_sec .option_list{
+    padding: 20px 0;
+    display: block;
+}
+
+.quiz_box .option_list .option{
+    background-color: #F0F8FF;
+    border: 1px solid #84c5fe;
+    border-radius: 5px;
+    padding: 8px 15px;
+    margin-bottom: 15px;
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.option_list .option:hover{
+    color: #004085;
+    background: #cce5ff;
+    border-color: #b8daff;
+}
+
+.option_list.option:last-child{
+    margin-bottom: 0px;
+}
+
+.option_list .option .icon{
+    height: 26px;
+    width: 26px;
+    border: 2px solid transparent;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 13px;
+    line-height: 24px;
+    pointer-events: none;
+}
+
+.option_list .option .icon.tick{
+    color: #23903c;
+    border-color: #23903c;
+    background: #d4edda;
+}
+
+.option_list .option .icon.cross{
+    color: #a42834;
+    border-color: #a42834;
+    background: #f8d7da;
+}
+
+.option_list .option.correct{
+    color: #155724;
+    border-color: #d4edda;
+    background: #c3e6cb;
+}
+
+.option_list .option.incorrect{
+    color: #721c24;
+    border-color: #f8d7da;
+    background: #f5c6cb;
+}
+
+.option_list .option.disabled{
+    pointer-events: none;
+}
+
+.quiz_box footer{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.quiz_box footer .total_que span{
+    display: flex;
+    user-select: none;
+}
+
+footer .total_que span p{
+    font-weight: 700;
+    padding: 0 5px;
+}
+
+.total_que span p:first-child{
+    padding-left: 10px;
+}
+
+footer .next_btn{
+    height: 40px;
+    padding: 0 13px;
+    font-size: 18px;
+    font-weight: 400;
+    border: none;
+    outline: none;
+    border-radius: 5px; 
+    cursor: pointer;
+    transition: all 0.3s ease;
+}

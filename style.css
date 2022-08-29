@@ -13,6 +13,35 @@
     background-size: cover;
 }
 
+.title_box{
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    border-radius: 10px;
+    width: 60%;
+    height: 30%;
+    background-image: url(./docs/Rusticcollagebooksparchmentsshabby\ chicelegantvintage.png);
+    box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.2), 0px 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.title_box h1{
+    font-size: 5vmin;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 10px;
+    text-shadow: -4px 4px 6px #fff;
+    border-bottom: 4px solid #000;
+}
+
+.title_box p{
+    font-size: 3.5vmin;
+    font-weight: bold;
+    padding: 25px 10px;
+    text-align: center;
+    text-shadow: 2px 2px 4px #fff;
+}
+
 .start_btn,
 .info_box,
 .quiz_box,

@@ -54,7 +54,8 @@
     transition: all 0.3s ease;
 }
 
-.info_box.activeInfo{
+.info_box.activeInfo,
+.quiz_box.activeQuiz{
     z-index: 5;
     opacity: 1;
     pointer-events: auto;
@@ -204,6 +205,15 @@
     border-radius: 5px;
     border: 1px solid #343a40;
     user-select: none;
+}
+
+.quiz_box header .time_line{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    height: 3px;
+    width: 100%;
+    background: #a55d07;
 }
 
 .quiz_box .que_sec{

@@ -58,16 +58,35 @@ function showQuestion(index){
     }
 }
 
+let tickIcon = '<div class="icon tick"><i class="fa-solid fa-check"></i></div>';
+let crossIcon = '<div class="icon cross"><i class="fa-solid fa-xmark"></i></div>';
+
 function optionSelected(answer){
     let userAns = answer.textContent;
     let correctAns = questions[que_count].answer;
+    let allOptions = option_list.children.length;
     if(userAns == correctAns){
         answer.classList.add("correct");
         console.log("Answer is Correct");
     }else{
         answer.classList.add("incorrect");
         console.log("Answer is Wrong");
+
+        //if answers is incorrect then automatically selected the correct answer
+        for (let i = 0; i < allOptions; i++) {
+            if(option_list.children[i].textContent == correctAns){
+                option_list.children[i].setAttribute("class", "option correct");
+                option_list.children[i].insertAdjacentHTML("beforeend", tickIcon);
+            }
+        }
     }
+
+
+//once user selected disabled all options
+for (let i = 0; i < allOptions; i++) {
+    option_list.children[i].classList.add("disabled");
+}
+next_btn.style.display = "block";
 }
 
 function queCounter(index){

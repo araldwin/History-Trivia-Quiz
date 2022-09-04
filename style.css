@@ -35,7 +35,7 @@
 }
 
 .title_box p{
-    font-size: 3.5vmin;
+    font-size: 4vmin;
     font-weight: bold;
     padding: 25px 10px;
     text-align: center;
@@ -63,13 +63,13 @@
     transform: translate(-50%, -50%) scale(1); 
 }
 
-/* Start Quiz button styling */
 .start_btn button{
     font-size: 25px;
     font-weight: 700;
 }
 
 /* Golden Button styling */
+
 .golden_btn{
     font-family: inherit;
     font-weight: 300;
@@ -109,7 +109,6 @@
 .info_box .info_title{
     height: 60px;
     width: 100%;
-    padding-top: 10px;
     border-bottom: 2px solid #000;
     text-shadow: 2px 2px 4px #fff;
     font-size: 4vmin;
@@ -234,7 +233,7 @@
 }
 
 .quiz_box .option_list .option{
-    background-color: #F0F8FF;
+    background-color: aliceblue;
     border: 1px solid #84c5fe;
     border-radius: 5px;
     padding: 8px 15px;
@@ -247,7 +246,7 @@
     transition: all 0.3s ease;
 }
 
-.option_list .option:hover{
+section .option_list .option:hover{
     color: #004085;
     background: #cce5ff;
     border-color: #b8daff;

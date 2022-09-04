@@ -5,7 +5,6 @@
     box-sizing: border-box;
     padding: 0;
     font-family: 'Roboto', sans-serif;
-
 }
 
  body{
@@ -69,7 +68,6 @@
 }
 
 /* Golden Button styling */
-
 .golden_btn{
     font-family: inherit;
     font-weight: 300;

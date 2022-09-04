@@ -1,13 +1,15 @@
-// getting all required elements
+/*jshint esversion: 6 */
+
 const start_btn = document.querySelector(".start_btn button");
 const info_box = document.querySelector(".info_box");
+const titleBox_rmv = document.querySelector(".title_box");
 const exit_btn = info_box.querySelector(".buttons .quit");
 const continue_btn = info_box.querySelector(".buttons .restart");
-const titleBox_rmv = document.querySelector(".title_box");
 const quiz_box = document.querySelector(".quiz_box");
-const option_list = document.querySelector(".option_list");
 const timeCount = quiz_box.querySelector(".timer .timer_sec");
 const timeLine = quiz_box.querySelector("header .time_line");
+const timeOff = quiz_box.querySelector("header .time_text");
+const option_list = document.querySelector(".option_list");
 
 //If Start Quiz Button Clicked
 start_btn.onclick = ()=>{
@@ -34,10 +36,27 @@ continue_btn.onclick = ()=>{
 let que_count = 0;
 let que_numb = 1;
 let counter;
+let counterLine;
 let timeValue = 10;
 let widthValue = 0;
+let userScore = 0;
 
 const next_btn = quiz_box.querySelector(".next_btn");
+const result_box = document.querySelector(".result_box");
+const quit_quiz = result_box.querySelector(".buttons .quit");
+
+
+quit_quiz.onclick = ()=>{
+    window.location.reload();
+};
+
+// Gets the current score from the DOM and increments it by 1
+
+function incrementCorScr() {
+
+    let oldScore = parseInt(document.getElementById("cor_scr").innerText);
+    document.getElementById("cor_scr").innerText = ++oldScore;
+}
 
 // If Next Button Clicked
 next_btn.onclick = ()=>{
@@ -51,8 +70,12 @@ next_btn.onclick = ()=>{
         clearInterval(counterLine);
         startTimerLine(widthValue);
         next_btn.style.display = "none";
+        timeOff.textContent = "Time Left";
     }else{
+        clearInterval(counter);
+        clearInterval(counterLine);
         console.log("Questions completed");
+        showResultBox();
     }
 };
 
@@ -80,16 +103,19 @@ function optionSelected(answer){
     let correctAns = questions[que_count].answer;
     let allOptions = option_list.children.length;
     if(userAns == correctAns){
+        userScore += 1;
+        console.log(userScore);
         answer.classList.add("correct");
         console.log("Answer is Correct");
         answer.insertAdjacentHTML("beforeend", tickIcon);
+        incrementCorScr();
     }else{
         answer.classList.add("incorrect");
         console.log("Answer is Wrong");
         answer.insertAdjacentHTML("beforeend", crossIcon);
-
-        //if answers is incorrect then automatically selected the correct answer
-        for (let i = 0; i < allOptions; i++) {
+        
+         //if answers is incorrect then automatically selected the correct answer
+         for (let i = 0; i < allOptions; i++) {
             if(option_list.children[i].textContent == correctAns){
                 option_list.children[i].setAttribute("class", "option correct");
                 option_list.children[i].insertAdjacentHTML("beforeend", tickIcon);
@@ -98,11 +124,30 @@ function optionSelected(answer){
     }
 
 
-    //once user selected disabled all options
-    for (let i = 0; i < allOptions; i++) {
-        ption_list.children[i].classList.add("disabled");
+//once user selected disabled all options
+        for (let i = 0; i < allOptions; i++) {
+            option_list.children[i].classList.add("disabled");
     }
-        next_btn.style.display = "block";
+    next_btn.style.display = "block";
+}
+
+function showResultBox(){
+    info_box.classList.remove("activeInfo"); //hide the info box
+    quiz_box.classList.remove("activeQuiz"); //hide the Quiz box
+    result_box.classList.add("activeResult"); //Show the Result box
+    const scoreText = result_box.querySelector(".score_text");
+    if(userScore > 6){
+        let scoreTag = '<span>Congrats! you got <span>'+ userScore +'</span> out of <span>'+ questions.length +'</span></span>';
+        scoreText.innerHTML = scoreTag; 
+    }
+    else if(userScore > 4){
+        let scoreTag = '<span>Nice! You got <span>'+ userScore +'</span> out of <span>'+ questions.length +'</span></span>';
+        scoreText.innerHTML = scoreTag; 
+    }
+    else{
+        let scoreTag = '<span>Try again! You got only <span>'+ userScore +'</span> out of <span>'+ questions.length +'</span></span>';
+        scoreText.innerHTML = scoreTag; 
+    }
 }
 
 function startTimer(time){
@@ -117,6 +162,21 @@ function startTimer(time){
         if(time < 0){
             clearInterval(counter);
             timeCount.textContent = "00";
+            timeOff.textContent = "Time Off";
+
+            let correctAns = questions[que_count].answer;
+            let allOptions = option_list.children.length;
+
+            for (let i = 0; i < allOptions; i++) {
+                if(option_list.children[i].textContent == correctAns){
+                    option_list.children[i].setAttribute("class", "option correct");
+                    option_list.children[i].insertAdjacentHTML("beforeend", tickIcon);
+                }
+            }
+            for (let i = 0; i < allOptions; i++) {
+                option_list.children[i].classList.add("disabled");
+            }
+            next_btn.style.display = "block";
         }
     }
 }

@@ -50,6 +50,7 @@ next_btn.onclick = ()=>{
         startTimer(timeValue);
         clearInterval(counterLine);
         startTimerLine(widthValue);
+        next_btn.style.display = "none";
     }else{
         console.log("Questions completed");
     }

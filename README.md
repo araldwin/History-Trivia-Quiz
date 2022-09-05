@@ -50,6 +50,8 @@ View correct answer
 Result at end of quiz
  - Users score will be shown in the end of the quiz, failing score will note "Try Again" Passing score will note "Nice" and Perfect and greater than passing score will note "Congrats!".
  -----
+
+ 
  - ### Future features
       - A background music.
       - More history trivia questions.
@@ -59,6 +61,8 @@ Result at end of quiz
 - I used Roboto fonts in this project with fall back being Sans-serif. This Font is simple and adapted to the website and it is linked to the CSS document via @import.
 ![HTQ-typhography](/docs/HTQ-typhography.png)
 ### Color Scheme
+- In this website I used black #000000 for the Fonts and white #FFFFFF for the text shadow. I also used different colors for the style of the buttons and other backgrounds. like Chocolate tradition #783205 as the main color of the buttons to get its golden style. next are the other colors I used.Alice Blue#F0F8FF,Dark Cornflower #004085, Beau Blue #CCE5FF, Forest Green Web #23903C, Crimson UA #A42834, Lincoln Green #155724, and Persian Plum #721C24. other colors not mentioned are border color and box shadow. i used these colors to match the theme of the website. 
+![HTQ-colorscheme](/docs/HTQ-colorscheme.png)
 -----
 ## Wireframes
 - [Balsamiq](https://balsamiq.com) - i used balsamiq to create [wireframes](https://balsamiq.cloud/shny6lm/pz4i6g4/rE2F0) for my project.

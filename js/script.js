@@ -14,13 +14,13 @@ const option_list = document.querySelector(".option_list");
 //If Start Quiz Button Clicked
 start_btn.onclick = ()=>{
     info_box.classList.add("activeInfo"); //show the info box
-    titleBox_rmv.classList.remove("title_box"); //hide title box
+    titleBox_rmv.style.display = "none"; //hide title box
 };
 
 //If Exit Button Clicked
 exit_btn.onclick = ()=>{
     info_box.classList.remove("activeInfo"); //hide the info box
-    titleBox_rmv.classList.add("title_box"); // show title box
+    titleBox_rmv.style.display = "block"; // show title box
 };
 
 //If Continue Button Clicked

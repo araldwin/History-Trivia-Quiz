@@ -1,6 +1,7 @@
 /* importing google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
-* {
+
+*{
     margin: 0;
     box-sizing: border-box;
     padding: 0;

@@ -57,7 +57,7 @@ Result at end of quiz
 ## Typography and color scheme
 ### Typography
 - I used Roboto fonts in this project with fall back being Sans-serif. This Font is simple and adapted to the website and it is linked to the CSS document via @import.
-
+![HTQ-typhography](/docs/HTQ-typhography.png)
 ### Color Scheme
 -----
 ## Wireframes
@@ -80,3 +80,28 @@ Result at end of quiz
 - [Visual Studio Code for Windows]() - IDE used to code the project.
 - [Windows Snipping Tool] - used to save the screen shot.
 -----
+
+## Testing
+### 7.1 Code Validation
+- [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/#validate_by_input) - used to validate the project css.
+<p>
+    <a href="http://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="http://jigsaw.w3.org/css-validator/images/vcss"
+            alt="Valid CSS!" />
+    </a>
+</p>
+<p>
+<a href="http://jigsaw.w3.org/css-validator/check/referer">
+    <img style="border:0;width:88px;height:31px"
+        src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+        alt="Valid CSS!" />
+    </a>
+</p>
+
+![HTQ-W3CCSSValidator](/docs/HTQ-W3CCSSValidator.png)
+
+-----
+- [Nu Html Checker](https://validator.w3.org/nu/#textarea) - used to check the project html.
+#### Index.html
+![HTQ-HTMLchecker](/docs/HTQ-HTMLchecker.png)

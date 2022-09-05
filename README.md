@@ -19,6 +19,7 @@
 
 ## Purpose of the project
 The purpose of this project is for Project #2(JavaScript), this is part of me achieving the Diploma in Full Stack Software Development at [Code Institute](https://codeinstitute.net/).besides this it is a General Knowledge, Fun Trivia question quiz game project, it can provide more knowledge for the User.
+
 ## User stories
  - The starting screen have a button that users can click to start the quiz.
  - Users should be prompted through a series of at least 10 multiple choice questions that they can answer.
@@ -32,6 +33,7 @@ The purpose of this project is for Project #2(JavaScript), this is part of me ac
  - Users will not gain score if the time limit is off and it will show the correct asnwer.
  - Users should be shown their overall score at the end of the quiz. In other words, how many questions they got right out of the total questions asked.
  - Users should be able to start a new quiz.
+
 ## Features
 - ### A Simple, Easy to Remember URL:[History Trivia Quiz](https://araldwin.github.io/Project-2/)
 -----
@@ -49,9 +51,10 @@ View correct answer
 
 Result at end of quiz
  - Users score will be shown in the end of the quiz, failing score will note "Try Again" Passing score will note "Nice" and Perfect and greater than passing score will note "Congrats!".
- -----
+-----
+- ### This website is mobile friendly or responsive design that fits standard screen sizes.
+ ![HTQ-iamresponsive](/docs/HTQ-iamresponsive.png)
 
- 
  - ### Future features
       - A background music.
       - More history trivia questions.
@@ -80,13 +83,15 @@ Result at end of quiz
 - [Git](http://gitscm.com) - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 - [Gitpod](https://gitpod.io) - IDE used to code the project.
 - [GitHub](https://github.com) - GitHub is used to store the project's code after being pushed from Git.
-- [Logo maker](https://play.google.com/store/apps/details?id=splendid.logomaker.designer&hl=en&gl=US) - I used it to make my logo.
 - [Visual Studio Code for Windows]() - IDE used to code the project.
 - [Windows Snipping Tool] - used to save the screen shot.
 -----
-
 ## Testing
 ### 7.1 Code Validation
+- [JS Hint](https://jshint.com/) - used to check JavaScript codes.
+![HTQ-Jshint](/docs/HTQ-Jshint.png)
+-----
+
 - [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/#validate_by_input) - used to validate the project css.
 <p>
     <a href="http://jigsaw.w3.org/css-validator/check/referer">
@@ -104,7 +109,6 @@ Result at end of quiz
 </p>
 
 ![HTQ-W3CCSSValidator](/docs/HTQ-W3CCSSValidator.png)
-
 -----
 - [Nu Html Checker](https://validator.w3.org/nu/#textarea) - used to check the project html.
 #### Index.html

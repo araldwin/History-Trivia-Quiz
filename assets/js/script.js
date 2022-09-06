@@ -1,15 +1,15 @@
 /*jshint esversion: 6 */
 
-const start_btn = document.querySelector(".start_btn button");
-const info_box = document.querySelector(".info_box");
-const titleBox_rmv = document.querySelector(".title_box");
-const exit_btn = info_box.querySelector(".buttons .quit");
-const continue_btn = info_box.querySelector(".buttons .restart");
-const quiz_box = document.querySelector(".quiz_box");
-const timeCount = quiz_box.querySelector(".timer .timer_sec");
-const timeLine = quiz_box.querySelector("header .time_line");
-const timeOff = quiz_box.querySelector("header .time_text");
-const option_list = document.querySelector(".option_list");
+let start_btn = document.querySelector(".start_btn button");
+let info_box = document.querySelector(".info_box");
+let titleBox_rmv = document.querySelector(".title_box");
+let exit_btn = info_box.querySelector(".buttons .quit");
+let continue_btn = info_box.querySelector(".buttons .restart");
+let quiz_box = document.querySelector(".quiz_box");
+let timeCount = quiz_box.querySelector(".timer .timer_sec");
+let timeLine = quiz_box.querySelector("header .time_line");
+let timeOff = quiz_box.querySelector("header .time_text");
+let option_list = document.querySelector(".option_list");
 
 //If Start Quiz Button Clicked
 start_btn.onclick = ()=>{
@@ -41,9 +41,9 @@ let timeValue = 10;
 let widthValue = 0;
 let userScore = 0;
 
-const next_btn = quiz_box.querySelector(".next_btn");
-const result_box = document.querySelector(".result_box");
-const quit_quiz = result_box.querySelector(".buttons .quit");
+let next_btn = quiz_box.querySelector(".next_btn");
+let result_box = document.querySelector(".result_box");
+let quit_quiz = result_box.querySelector(".buttons .quit");
 
 
 quit_quiz.onclick = ()=>{
@@ -81,13 +81,13 @@ next_btn.onclick = ()=>{
 
 //getting questions and options from array
 function showQuestion(index){
-    const que_text = document.querySelector(".que_text");
+    let que_text = document.querySelector(".que_text");
     let que_tag = '<span>'+ questions[index].numb + ". " + questions[index].question +'</span>';
     let option_tag = '<div class="option"><span>'+ questions[index].options[0] +'</span></div>'+'<div class="option"><span>'+ questions[index].options[1] +'</span></div>';
     que_text.innerHTML = que_tag; 
     option_list.innerHTML = option_tag;
 
-    const option = option_list.querySelectorAll(".option");
+    let option = option_list.querySelectorAll(".option");
     for (let i = 0; i < option.length; i++) {
         option[i].setAttribute("onclick", "optionSelected(this)");
     }
@@ -192,7 +192,7 @@ function startTimerLine(time){
 }
 
 function queCounter(index){
-    const bottom_ques_counter = quiz_box.querySelector(".total_que");
+    let bottom_ques_counter = quiz_box.querySelector(".total_que");
     let totalQuesCountTag = '<span><p>'+ index +'</p>of<p>'+ questions.length +'</p>Questions</span>';
     bottom_ques_counter.innerHTML = totalQuesCountTag;
 }

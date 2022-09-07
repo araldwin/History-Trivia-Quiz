@@ -74,7 +74,6 @@ next_btn.onclick = ()=>{
     }else{
         clearInterval(counter);
         clearInterval(counterLine);
-        console.log("Questions completed");
         showResultBox();
     }
 };
@@ -104,14 +103,11 @@ function optionSelected(answer){
     let allOptions = option_list.children.length;
     if(userAns == correctAns){
         userScore += 1;
-        console.log(userScore);
         answer.classList.add("correct");
-        console.log("Answer is Correct");
         answer.insertAdjacentHTML("beforeend", tickIcon);
         incrementCorScr();
     }else{
         answer.classList.add("incorrect");
-        console.log("Answer is Wrong");
         answer.insertAdjacentHTML("beforeend", crossIcon);
         
          //if answers is incorrect then automatically selected the correct answer
@@ -134,7 +130,7 @@ function showResultBox(){
     info_box.classList.remove("activeInfo"); //hide the info box
     quiz_box.classList.remove("activeQuiz"); //hide the Quiz box
     result_box.classList.add("activeResult"); //Show the Result box
-    const scoreText = result_box.querySelector(".score_text");
+    let scoreText = result_box.querySelector(".score_text");
     if(userScore > 6){
         let scoreTag = '<span>Congrats! you got <span>'+ userScore +'</span> out of <span>'+ questions.length +'</span></span>';
         scoreText.innerHTML = scoreTag; 

@@ -1,5 +1,6 @@
 /*jshint esversion: 6 */
 
+// getting all required elments
 let start_btn = document.querySelector(".start_btn button");
 let info_box = document.querySelector(".info_box");
 let titleBox_rmv = document.querySelector(".title_box");

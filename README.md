@@ -9,8 +9,8 @@
 6. [Technology](#technology)
 7. [Testing](#testing)
    - 7.1 Code Validation
-   - 7.3 fixed bugs
-   - 7.4 supported screens and browsers
+   - 7.2 fixed bugs
+   - 7.3 supported screens and browsers
 8. [Deployment](#deployment)
    - via gitpod
    - via github pages
@@ -85,6 +85,7 @@ Result at end of quiz
 - [Gitpod](https://gitpod.io) - IDE used to code the project.
 - [GitHub](https://github.com) - GitHub is used to store the project's code after being pushed from Git.
 - [Visual Studio Code for Windows]() - IDE used to code the project.
+- [Unsplash](https://www.unsplash.com/) - for the webpage main background image.
 - [Windows Snipping Tool] - used to save the screen shot.
 -----
 ## Testing
@@ -114,3 +115,49 @@ Result at end of quiz
 - [Nu Html Checker](https://validator.w3.org/nu/#textarea) - used to check the project html.
 #### Index.html
 ![HTQ-HTMLchecker](/docs/HTQ-HTMLchecker.png)
+### 7.2 fixed bugs
+- i had a problem with the title box where even if i click start qiuz it doesn't disappear, which it should disappear.
+![HTQ-fixedbug](/docs/HTQ-fixedbug.png)
+- to solve this problem i simply change the:
+    - titleBox_rmv.classList.remove("title_box"); into titleBox_rmv.style.display = "none";
+    - titleBox_rmv.classList.add("title_box"); into titleBox_rmv.style.display = "block";
+-----
+### Lighthouse report
+![HTQ-lighthouse](/docs/HTQ-lighthouse.png)
+
+### 7.3 supported screens and browsers
+- Supported browsers
+   - Google Chrome
+   - Microsoft Edge
+   - Safari
+
+- Supported screens
+   - Such a viewport was obtained from the am i responsive website where it was used to have an appropriate size for responsive design.
+
+## Deployment
+- via gitpod
+   - go to and log in to [github](https://github.com/).
+   - after login. on the top right side of the page next to the bell icon click on the "+" and select "New repository".
+   - now i can create a new repository. put repository template, repository name, its description and other options, after that just go to the bottom and press "Create repository" and then it take me to gitpod.
+
+- via github
+   - go to and log in to [github](https://github.com/).
+   - go to repository and choose [Project-2](https://github.com/araldwin/Project-2).
+   - after that head to [setting](https://github.com/araldwin/Project-2/settings).
+   - find and click "Pages" in the Code and Automation column.
+   - select "deploy from a branch" in Source, select "main" and "root" in Branch and save.
+![githubdeployment](/docs/githubdeployment.png)
+   - click the given weblink [araldwin.github.io/project-2/](https://araldwin.github.io/Project-2/).
+
+## Credits
+   - [W3C School](https://www.w3schools.com/) - for more knowledge that I learned.
+   - Code institute README.md Template
+   - Google images for the background
+## Acknowledgements
+   - Mr. Rohit to my mentor
+   - Student Support
+   - Slack community
+   - Code institute
+
+## Disclaimer
+   - History Trivia quiz was created for educational purpose only.

@@ -116,8 +116,8 @@ Result at end of quiz
 #### Index.html
 ![HTQ-HTMLchecker](/docs/HTQ-HTMLchecker.png)
 ### 7.2 fixed bugs
-- i had a problem with the title box where even if i click start qiuz it doesn't disappear, which it should disappear.
 ![HTQ-fixedbug](/docs/HTQ-fixedbug.png)
+- i had a problem with the title box where even if i click start qiuz it doesn't disappear, which it should disappear.
 - to solve this problem i simply change the:
     - titleBox_rmv.classList.remove("title_box"); into titleBox_rmv.style.display = "none";
     - titleBox_rmv.classList.add("title_box"); into titleBox_rmv.style.display = "block";

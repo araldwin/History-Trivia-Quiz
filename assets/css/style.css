@@ -20,7 +20,7 @@
     border-radius: 10px;
     width: 60%;
     height: 30%;
-    background-image: url(../docs/Rusticcollagebooksparchmentsshabby\ chicelegantvintage.png);
+    background-image: url(/docs/Rusticcollagebooksparchmentsshabby\ chicelegantvintage.png);
     box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.2), 0px 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -98,7 +98,7 @@
 
 .info_box{
     width: 50%;
-    background-image: url(../docs/Rusticcollagebooksparchmentsshabby\ chicelegantvintage.png);
+    background-image: url(/docs/Rusticcollagebooksparchmentsshabby\ chicelegantvintage.png);
     border-radius: 5px;
     opacity: 0;
     pointer-events: none;
@@ -216,7 +216,7 @@
 
 .quiz_box .que_sec{
     padding: 25px 30px 20px 30px;
-    background-image: url(../docs/Rusticcollagebooksparchmentsshabby\ chicelegantvintage.png);
+    background-image: url(/docs/Rusticcollagebooksparchmentsshabby\ chicelegantvintage.png);
 }
 
 .quiz_box .que_sec .que_text{
@@ -330,7 +330,7 @@ footer .next_btn{
 }
 
 .result_box{
-    background-image: url(../docs/Rusticcollagebooksparchmentsshabby\ chicelegantvintage.png);
+    background-image: url(/docs/Rusticcollagebooksparchmentsshabby\ chicelegantvintage.png);
     box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.2), 0px 6px 20px 0 rgba(0, 0, 0, 0.19);
     width: 80%;
     padding: 25px 30px;

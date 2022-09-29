@@ -1,6 +1,5 @@
 //creating an array and passing the number, questions, options, and answer
-let questions = [
-    {
+let questions = [{
         numb: 1,
         question: "The Great 'what' of London occurred in 1666?",
         answer: "Fire",

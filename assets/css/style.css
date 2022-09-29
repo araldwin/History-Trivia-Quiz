@@ -383,3 +383,58 @@ footer .next_btn {
     border-radius: 5px;
     cursor: pointer
 }
+
+/* 404 page */
+
+.not-found-container {
+    border-radius: 20px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -moz-transform: translate(-50%, -50%);
+    /* Firefox */
+    -ms-transform: translate(-50%, -50%);
+    /* IE 9 */
+    -webkit-transform: translate(-50%, -50%);
+    /* Safari and Chrome*/
+    -o-transform: translate(-50%, -50%);
+    /* Opera */
+    transform: translate(-50%, -50%);
+    background: #fff;
+    width: 80%;
+    height: 80%;
+
+}
+
+.not-found-container img {
+    padding: 50px 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
+
+.not-found-container h1 {
+    padding-bottom: 20px;
+    letter-spacing: 2px;
+    font-size: 3.5vmax;
+    text-align: center;
+}
+
+.not-found-container p {
+    padding-bottom: 20px;
+    letter-spacing: 2px;
+    font-size: 2.5vmax;
+    text-align: center;
+}
+
+.not-found-container a {
+    letter-spacing: 2px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    font-size: 2vmin;
+    text-transform: uppercase;
+}

@@ -452,6 +452,10 @@ footer .next_btn {
         box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.2), 0px 6px 20px 0 rgba(0, 0, 0, 0.19);
         transition: all 0.3s ease;
     }
+
+    .start_btn button{
+        font-size: 1.2em;
+    }
     
     .title_box {
         position: absolute;
@@ -464,11 +468,11 @@ footer .next_btn {
     }
     
     .title_box h1 {
-        font-size: 2.5em;
+        font-size: 1.5em;
     }
     
     .title_box p {
-        font-size: 1.5em;
+        font-size: 1.2em;
     }
     
     .info_box {
@@ -505,7 +509,7 @@ footer .next_btn {
         margin: 0 5px;
         height: 50%;
         width: 100%;
-        font-size: 1.2em;
+        font-size: 1em;
         
     }
     

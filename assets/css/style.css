@@ -118,7 +118,6 @@ body {
 }
 
 .info_box .info_list {
-    padding: 15px 35px;
     text-align: center;
 }
 
@@ -439,3 +438,76 @@ footer .next_btn {
     font-size: 2vmin;
     text-transform: uppercase;
 }
+
+
+/* responsive design */
+
+@media only screen and (max-width: 480px) {
+
+    .start_btn {
+        position: absolute;
+        top: 80%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.2), 0px 6px 20px 0 rgba(0, 0, 0, 0.19);
+        transition: all 0.3s ease;
+    }
+    
+    .title_box {
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 10px;
+        width: 80%;
+        height: 50%;
+    }
+    
+    .title_box h1 {
+        font-size: 2.5em;
+    }
+    
+    .title_box p {
+        font-size: 1.5em;
+    }
+    
+    .info_box {
+        width: 90%;
+        height: 80%;
+        padding: 10px;
+    
+    }
+    
+    .info_box .info_title {
+        height: 15%;
+        font-size: 2.5em;
+        font-weight: 700;
+        text-align: center;
+        letter-spacing: 3px;
+    }
+    
+    .info_box .info_list {
+        height: 63%;
+        text-align: justify;
+    }
+    
+    .info_box .info_list .info {
+        margin: 10%;
+        font-size: 1.2em;
+    }
+        
+    .info_box .buttons {
+        height: 15%;
+        padding: 0 5%;    
+    }
+    
+    .info_box .buttons button {
+        margin: 0 5px;
+        height: 50%;
+        width: 100%;
+        font-size: 1.2em;
+        
+    }
+    
+    }
+    

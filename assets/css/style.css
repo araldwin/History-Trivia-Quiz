@@ -442,7 +442,9 @@ footer .next_btn {
 
 /* responsive design */
 
-@media only screen and (max-width: 480px) {
+/* media quiries for desktop,laptop, and tablet. */
+@media only screen and (max-width: 1920px),
+screen and (max-height: 1080) {
 
     .start_btn {
         position: absolute;
@@ -453,10 +455,10 @@ footer .next_btn {
         transition: all 0.3s ease;
     }
 
-    .start_btn button{
-        font-size: 1.2em;
+    .start_btn button {
+        font-size: 5vmin;
     }
-    
+
     .title_box {
         position: absolute;
         top: 40%;
@@ -466,52 +468,60 @@ footer .next_btn {
         width: 80%;
         height: 50%;
     }
-    
+
     .title_box h1 {
-        font-size: 1.5em;
+        font-size: 7vmin;
     }
-    
+
     .title_box p {
-        font-size: 1.2em;
+        font-size: 5vmin;
+        padding: 10vmin 10px;
     }
-    
+
     .info_box {
         width: 90%;
         height: 80%;
         padding: 10px;
-    
+
     }
-    
+
     .info_box .info_title {
         height: 15%;
-        font-size: 1.5em;
-        font-weight: 700;
-        text-align: center;
-        letter-spacing: 3px;
+        font-size: 6.6vmin;
+        letter-spacing: 5px;
     }
-    
+
     .info_box .info_list {
         height: 63%;
         text-align: justify;
     }
-    
+
     .info_box .info_list .info {
         margin: 1%;
-        font-size: 1em;
+        font-size: 4.3vmin;
+        padding: 1vmin;
     }
-        
+
     .info_box .buttons {
         height: 15%;
-        padding: 0 5%;    
+        padding: 0 5%;
     }
-    
+
     .info_box .buttons button {
-        margin: 0 5px;
         height: 50%;
-        width: 100%;
-        font-size: 1em;
-        
+        font-size: 4.5vmin;
+
     }
-    
-    }
-    
+
+}
+
+    /* media quiries for small devices */
+@media only screen and (max-width: 320px) {
+        .quiz_box .que_sec {
+            padding: 0.5rem;
+        }
+
+        .result_box {
+            padding: .5em;
+        }
+}

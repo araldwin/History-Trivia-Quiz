@@ -444,7 +444,7 @@ footer .next_btn {
 
 /* media quiries for desktop,laptop, and tablet. */
 @media only screen and (max-width: 1920px),
-screen and (max-height: 1080) {
+screen and (max-height: 1080px) {
 
     .start_btn {
         position: absolute;
@@ -515,13 +515,13 @@ screen and (max-height: 1080) {
 
 }
 
-    /* media quiries for small devices */
+/* media quiries for small devices */
 @media only screen and (max-width: 320px) {
-        .quiz_box .que_sec {
-            padding: 0.5rem;
-        }
+    .quiz_box .que_sec {
+        padding: 0.5rem;
+    }
 
-        .result_box {
-            padding: .5em;
-        }
+    .result_box {
+        padding: .5em;
+    }
 }

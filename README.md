@@ -150,6 +150,7 @@ Result at end of quiz
    - click the given weblink [araldwin.github.io/project-2/](https://araldwin.github.io/Project-2/).
 
 ## Credits
+   - https://www.codingnepalweb.com/quiz-app-with-timer-javascript/ - Tutorials i used.
    - [W3C School](https://www.w3schools.com/) - for more knowledge that I learned.
    - Code institute README.md Template
    - Google images for the background

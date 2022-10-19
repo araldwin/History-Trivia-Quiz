@@ -16,14 +16,14 @@ let option_list = document.querySelector(".option_list");
 start_btn.onclick = () => {
     info_box.classList.add("activeInfo"); //show the info box
     titleBox_rmv.style.display = "none"; //hide title box
-    start_btn.style.display = "none" //hide start button
+    start_btn.style.display = "none"; //hide start button
 };
 
 //If Exit Button Clicked
 exit_btn.onclick = () => {
     info_box.classList.remove("activeInfo"); //hide the info box
     titleBox_rmv.style.display = "block"; // show title box
-    start_btn.style.display = "block" // show start button
+    start_btn.style.display = "block"; // show start button
 };
 
 //If Continue Button Clicked
@@ -35,7 +35,6 @@ continue_btn.onclick = () => {
     startTimer(10);
     startTimerLine(0);
 };
-
 let que_count = 0;
 let que_numb = 1;
 let counter;

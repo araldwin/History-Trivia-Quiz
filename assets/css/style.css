@@ -216,6 +216,7 @@ body {
 .quiz_box .que_sec {
     padding: 25px 30px 20px 30px;
     background-image: url(https://images.unsplash.com/photo-1531860010134-8264106d78a0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+    background-size: cover;
 }
 
 .quiz_box .que_sec .que_text {
@@ -298,7 +299,7 @@ section .option_list .option:hover {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 20px;
+    padding: 0 30px;
 }
 
 .quiz_box footer .total_que span {
@@ -320,7 +321,7 @@ footer .next_btn {
     height: 40px;
     padding: 0 13px;
     font-size: 18px;
-    font-weight: 400;
+    font-weight: 700;
     border: none;
     outline: none;
     border-radius: 5px;
@@ -330,10 +331,10 @@ footer .next_btn {
 
 .result_box {
     background-image: url(https://images.unsplash.com/photo-1531860010134-8264106d78a0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
-    box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.2), 0px 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0px 4px 8px 0 rgb(0 0 0 / 20%), 0px 6px 20px 0 rgb(0 0 0 / 19%);
     width: 80%;
-    padding: 25px 30px;
-    border-radius: 5px;
+    padding: 10px;
+    border-radius: 10px;
     text-shadow: 2px 2px 4px #fff;
     display: flex;
     text-align: center;
@@ -346,14 +347,14 @@ footer .next_btn {
 }
 
 .result_box .complete_text {
-    font-size: 30px;
+    font-size: 5vmin;
     font-weight: 700;
 }
 
 .result_box .score_text {
     display: flex;
     margin: 10px 0;
-    font-size: 20px;
+    font-size: 4vmin;
     font-weight: 700;
 }
 
@@ -363,7 +364,7 @@ footer .next_btn {
 }
 
 .result_box .quote {
-    font-size: 18px;
+    font-size: 3vmin;
     font-weight: 700;
 }
 
@@ -443,8 +444,8 @@ footer .next_btn {
 /* responsive design */
 
 /* media quiries for desktop,laptop, and tablet. */
-@media only screen and (max-width: 1920px),
-screen and (max-height: 1080px) {
+@media only screen and (max-width: 1920px)
+and (max-height: 1080px) {
 
     .start_btn {
         position: absolute;
@@ -508,12 +509,448 @@ screen and (max-height: 1080px) {
     }
 
     .info_box .buttons button {
+        height: 4vmax;
+        font-size: 2.8vmax;
+    }
+
+    .quiz_box {
+        width: 80%;
+        height: 60%;
+    }
+
+    .quiz_box header{
+        height: 15%;
+    }
+
+    .quiz_box header .score {
+        font-weight: bold;
+        font-size: 4vmax;
+    }
+
+    .quiz_box header .timer {
+        width: 40%;
+        height: 70%;
+        border: 3px solid #bc881b;
+    }
+
+    .quiz_box header .timer .time_text {
+        font-size: 4vmax;
+    }
+
+    .quiz_box header .timer .timer_sec {
+        font-size: 3.8vmax;
+        height: 3vmax;
+        line-height: 3vmax;
+    }
+
+    .quiz_box .que_sec {
+        height: 70%;
+    }
+
+    .quiz_box .que_sec .que_text {
+        font-size: 3vmax;
+    }
+
+    .quiz_box .option_list .option {
+        font-size: 2.5vmax;
+    }
+
+    .option_list .option .icon {
+        height: 3vmax;
+        width: 3vmax;
+        font-size: 2vmax;
+        line-height: 3vmax;
+    }
+
+    .quiz_box footer {
+        height: 15%;
+        font-size: 4vmax;
+    }
+
+    footer .next_btn {
+        width: 30%;
+        height: 70%;
+        font-size: 2.7vmax;
+    }
+
+    .result_box {
+        height: 80%;
+    }
+
+    .result_box .complete_text {
+        font-size: 6vmax;
+    }
+
+    .result_box .score_text {
+        font-size: 4vmax;
+    }
+
+    .result_box .quote {
+        font-size: 3.5vmax;
+    }
+
+    .result_box .buttons button {
+        font-size: 3vmax;
+        height: 4vmax;
+
+    }
+}
+
+/* media quiries for ipad pro */
+@media only screen and 
+(width: 1024px)
+and (height: 1366px) 
+and (-webkit-min-device-pixel-ratio: 1.5) 
+and (orientation: portrait)  {
+    
+    .title_box {
+        top: 23%;
+        left: 17%;
+        width: 70%;
         height: 50%;
-        font-size: 4.5vmin;
+    }
+
+    .title_box h1 {
+        font-size: 5rem;
+    }
+
+    .title_box p {
+        font-size: 3.5rem;
+        padding: 7% 0;
+    }
+
+    .start_btn {
+        top: 85%;
+    }
+
+    .start_btn button {
+        font-size: 3rem;
+    }
+
+    .info_box {
+        width: 70%;
+        height: 70%;
+    }
+
+    .info_box .info_title {
+        height: 80px;
+        font-size: 4rem;
+        border-bottom: 4px solid #000;
+    }
+
+    .info_box .info_list .info {
+        margin: 30px;
+        font-size: 3rem;
+    }
+
+    .info_box .buttons {
+        height: 94px;
+    }
+
+    .info_box .buttons button {
+        margin: 0px 20px;
+        height: 60px;
+        font-size: 2rem;
+    }
+
+    .quiz_box {
+        width: 90%;
+        height: 90%;   
+        background-size: cover; 
+    }
+
+    .quiz_box header .score {
+        font-size: 4rem;
+    }
+
+    .quiz_box header .timer {
+        width: 50%;
+        height: 80%;
+        border: 3px solid #bc881b;
+    }
+
+    .quiz_box header .timer .time_text {
+        font-weight: 600;
+        font-size: 4rem;
+    }
+
+    .quiz_box header .timer .timer_sec {
+        font-size: 3.5rem;
+        font-weight: 600;
+        height: 45px;
+        line-height: 44px;
+    }
+
+    .quiz_box .que_sec {
+        height: 85%;
+        background-size: cover;
+    }
+
+    .quiz_box .que_sec .que_text {
+        font-size: 5rem;
+    }
+
+    .quiz_box .que_sec .option_list {
+        padding: 10% 0;
+    }
+
+    .quiz_box .option_list .option {
+        margin-bottom: 5%;
+        font-size: 4rem;
+        font-weight: 700;
+    }
+
+    .option_list .option .icon {
+        height: 76px;
+        width: 76px;
+        border: 5px solid transparent;
+        font-size: 4rem;
+        line-height: 76px;
+        pointer-events: none;
+    }
+
+    .quiz_box footer {
+        font-size: 3rem;
+        height: 9%;
+    }
+
+    footer .next_btn {
+        
+        width: 30%;
+        height: 75px;
+        font-size: 3rem;
+        font-weight: 600;
+    }
+
+    .result_box {
+        background-size: cover;
+        width: 80%;
+        height: 80%;
+    }
+
+    .result_box .complete_text {
+        font-size: 6rem;
+    }
+
+    .result_box .score_text {
+        font-size: 4rem;
+    }
+
+    .result_box .quote {
+        font-size: 3rem;
+    }
+
+    .result_box .buttons button {
+        height: 80px;
+        width: 100%;
+        font-size: 2rem;
+        font-weight: 700;
+    }
+}
+
+/* media quiries for ipad */
+@media only screen and (width: 768px) 
+and (height: 1024px) 
+and (orientation:portrait) {
+
+    .quiz_box {
+        width: 90%;
+        height: 90%;    
+    }
+
+    .quiz_box header .score {
+        font-size: 3rem;
+    }
+
+    .quiz_box header .timer {
+        width: 50%;
+        height: 80%;
+        border: 3px solid #bc881b;
+    }
+
+    .quiz_box header .timer .time_text {
+        font-weight: 600;
+        font-size: 2.5rem;
+    }
+
+    .quiz_box header .timer .timer_sec {
+        font-size: 3.5rem;
+        font-weight: 600;
+        height: 45px;
+        line-height: 44px;
+    }
+
+    .quiz_box .que_sec {
+        height: 85%;
+        background-size: cover;
+    }
+
+    .quiz_box .que_sec .que_text {
+        font-size: 3.5rem;
+    }
+
+    .quiz_box .que_sec .option_list {
+        padding: 10% 0;
+    }
+
+    .quiz_box .option_list .option {
+        margin-bottom: 5%;
+        font-size: 3rem;
+        font-weight: 700;
+    }
+
+    .option_list .option .icon {
+        height: 56px;
+        width: 56px;
+        border: 3px solid transparent;
+        font-size: 3rem;
+        line-height: 60px;
+        pointer-events: none;
+    }
+
+    .quiz_box footer {
+        font-size: 2.5rem;
+        height: 8%;
+    }
+
+    footer .next_btn {
+        
+        width: 30%;
+        height: 50px;
+        font-size: 2.5rem;
+        font-weight: 600;
+    }
+
+    .result_box {
+        background-size: cover;
+        width: 80%;
+        height: 80%;
 
     }
 
+    .result_box .complete_text {
+        font-size: 4rem;
+    }
+
+    .result_box .score_text {
+        font-size: 3rem;
+    }
+
+    .result_box .quote {
+        font-size: 2.5rem;
+    }
+
+    .result_box .buttons button {
+        height: 60px;
+        width: 100%;
+        font-size: 2rem;
+        font-weight: 700;
+    }
 }
+
+@media only screen 
+and (width: 375px) 
+and (max-height: 812px) 
+and (orientation: portrait) {
+
+    .quiz_box {
+        width: 90%;
+        height: 90%;    
+    }
+
+    .quiz_box header {
+        height: 50px;
+    }
+
+    .quiz_box header .score {
+        font-size: 1.6rem;
+    }
+
+    .quiz_box header .timer {
+        width: 56%;
+        height: 80%;
+        border: 2px solid #bc881b;
+    }
+
+    .quiz_box header .timer .time_text {
+        font-weight: 600;
+        font-size: 1.5rem;
+    }
+
+    .quiz_box header .timer .timer_sec {
+        font-size: 1.5rem;
+        font-weight: 600;
+        height: 33px;
+        line-height: 33x;
+    }
+
+    .quiz_box .que_sec {
+        height: 85%;
+        background-size: cover;
+    }
+
+    .quiz_box .que_sec .que_text {
+        font-size: 2rem;
+    }
+
+    .quiz_box .que_sec .option_list {
+        padding: 10% 0;
+    }
+
+    .quiz_box .option_list .option {
+        margin-bottom: 5%;
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
+
+    .option_list .option .icon {
+        height: 40px;
+        width: 40px;
+        border: 2px solid transparent;
+        font-size: 1.5rem;
+        line-height: 40px;
+        pointer-events: none;
+    }
+
+    .quiz_box footer {
+        font-size: 1.5rem;
+    }
+
+    footer .next_btn {
+        
+        width: 30%;
+        height: 35px;
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+
+    .result_box {
+        background-size: cover;
+        width: 80%;
+        height: 80%;
+
+    }
+
+    .result_box .complete_text {
+        font-size: 2.2rem;
+    }
+
+    .result_box .score_text {
+        font-size: 1.8rem;
+    }
+
+    .result_box .quote {
+        font-size: 1.6rem;
+    }
+
+    .result_box .buttons button {
+        height: 40px;
+        width: 100%;
+        font-size: 1.8rem;
+        font-weight: 700;
+    }
+}
+
 
 /* media quiries for small devices */
 @media only screen and (max-width: 320px) {
@@ -524,4 +961,5 @@ screen and (max-height: 1080px) {
     .result_box {
         padding: .5em;
     }
+
 }

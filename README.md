@@ -21,8 +21,18 @@
 The purpose of this project is for Project #2(JavaScript), this is part of me achieving the Diploma in Full Stack Software Development at [Code Institute](https://codeinstitute.net/).besides this it is a General Knowledge, Fun Trivia question quiz game project, it can provide more knowledge for the User.
 
 ## User stories
- - as a User the starting screen have a button that i can click to start the quiz, there should be prompted through a series of at least 10 multiple choice questions that i can answer and should be asked questions 1 after the other, it should only be prompted with 1 question at a time. I should not be able to skip questions, should also be able to see which question i we're on (for instance, "7 out of 10") and their current score ("5 correct). Upon submitting an answer, users should: 1) Receive feedback about their answer. If they were incorrect, they should be told the correct answer. 2) be moved onto the next question (or interact with an element to move on). it will not gain score if the time limit is off and it will show the correct answer. It should be shown my overall score at the end of the quiz. In other words, how many questions i got right out of the total questions asked. and should be able to start a new quiz.
-
+ as a User:
+   - there should be a button in the main menu that I can click to start the game. 
+   - I should also be able to see what the rules of the game are.
+   - must have the option to continue or exit the game before starting such game.
+   - while I am playing I should see my score.
+   - I should have a choice of my answer for the questions.
+   - there should also be a timer that I can see on display.
+   - I should be able to see the number of questions and how many more questions I have.
+   - when I answer the questions wrong I should see the correct answer.
+   - and when my answer is correct, my score should increase.
+   - when I run out of time and the question is not answered,<br>I should still see the correct answer, but my score will not be increased or decreased.
+   - after answering all the questions I should see my total score.
 ## Features
 - ### A Simple, Easy to Remember URL:[History Trivia Quiz](https://araldwin.github.io/Project-2/)
 -----

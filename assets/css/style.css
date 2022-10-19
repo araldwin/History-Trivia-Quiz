@@ -537,13 +537,13 @@ and (max-height: 1080px) {
     }
 
     .quiz_box header .timer .time_text {
-        font-size: 4vmax;
+        font-size: 3vmax;
     }
 
     .quiz_box header .timer .timer_sec {
-        font-size: 3.8vmax;
-        height: 3vmax;
-        line-height: 3vmax;
+        font-size: 2.5vmax;
+        height: 2.5vmax;
+        line-height: 2.5vmax;
     }
 
     .quiz_box .que_sec {

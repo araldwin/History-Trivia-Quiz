@@ -1105,6 +1105,147 @@ and (orientation:portrait) {
     }
 }
 
+/* media quiries for iphone 13 and iphone 13 pro */
+@media only screen and (width: 390px) 
+and (height: 844px) 
+and (orientation:portrait) {
+
+    .title_box {
+        top: 40%;
+        height: 60%;
+    }
+
+    .title_box h1 {
+        font-size: 8vmin;
+    }
+
+    .title_box p {
+        font-size: 5vmin;
+        line-height: 80px;
+    }
+
+    .start_btn {
+        top: 80%;
+    }
+
+    .start_btn button {
+        font-size: 5vmin;
+    }
+
+    .info_box {
+        width: 80%;
+        height: 80%;
+    }
+    
+    .info_box .info_title{
+        height: 10%;
+        font-size: 6vmin;
+        line-height: 30px;
+    }
+
+    .info_box .info_list {
+        height: 80%;
+    }
+
+    .info_box .info_list .info{
+        font-size: 4vmin;
+        line-height: 40px;
+        padding: 10px 0;
+    }
+
+    .info_box .buttons {
+        height: 80px;
+    }  
+
+    .info_box .buttons button {
+        height: 10vmin;
+        font-size: 5vmin;
+    }
+
+    .quiz_box.activeQuiz {
+        width: 90%;
+        height: 90%;
+    }
+
+    .quiz_box header {
+        height: 10%;
+    }
+
+    .quiz_box header .score {
+        font-size: 5vmin;
+    }
+
+    .quiz_box header .timer {
+        width: 50%;
+        height: 50%;
+        border: 2px solid #bc881b;
+    }
+
+    .quiz_box header .timer .timer_sec {
+        font-size: 5vmin;
+        height: 90%;
+        line-height: 35px;
+
+    }
+
+    .quiz_box header .timer .time_text {
+        font-size: 5vmin;
+        font-weight: 700;
+    }
+
+    .quiz_box .que_sec {
+        height: 80%;
+    }
+
+    .quiz_box .que_sec .que_text {
+        margin-top: 15%;
+        font-size: 7vmin;
+    }
+
+    .quiz_box .option_list .option {
+        font-weight: 700;
+        font-size: 5vmin;
+        margin: 50px 0;
+    }
+
+    .option_list .option .icon {
+        height: 6vmin;
+        width: 6vmin;
+        font-size: 5vmin;
+        line-height: 6vmin;
+    }
+
+    .quiz_box footer {
+        height: 10%;
+        font-size: 5vmin;
+    }
+
+    footer .next_btn {
+        height: 40px;
+        font-size: 5vmin;
+        height: 7vmin;
+        width: 30%;
+    }
+
+    .result_box .complete_text {
+        font-size: 8vmin;
+    }
+
+    .result_box .score_text {
+        font-size: 6vmin;
+    }
+
+    .result_box .quote {
+        font-size: 7vmin;
+    }
+
+    .result_box .buttons button {
+        height: 7vmin;
+        font-size: 5vmin;
+    }
+}
+
+
 /* media quiries for iphone 13 pro max */
 @media only screen and (width: 428px) 
 and (height: 926px) 
@@ -1244,6 +1385,7 @@ and (orientation:portrait) {
         font-size: 5vmin;
     }
 }
+
 
 
 

@@ -76,6 +76,14 @@ The purpose of this project is for Project #2(JavaScript), this is part of me ac
       <p> <img src="docs/endgame.png"> </p>
       </details>
 -----
+
+- 404page
+    <details><summary>display end game screen shot</summary>
+      <p> <img src="docs/404page.png"> </p>
+      </details>
+
+
+-----
 - ### This website is mobile friendly or responsive design that fits standard screen sizes.
 
    <details><summary>amiresponsive screen shot</summary>

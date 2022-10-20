@@ -77,7 +77,11 @@ The purpose of this project is for Project #2(JavaScript), this is part of me ac
       </details>
 -----
 - ### This website is mobile friendly or responsive design that fits standard screen sizes.
-      
+
+   <details><summary>amiresponsive screen shot</summary>
+      <p> <img src="docs/HTQ-iamresponsive.png"></p>
+      </details>
+
       ```
       Desktop
       1600x992px 
@@ -100,11 +104,6 @@ The purpose of this project is for Project #2(JavaScript), this is part of me ac
       iPhone X = 375x812px
       ```
 
-   <details><summary>amiresponsive screen shot</summary>
-      <p> <img src="docs/HTQ-iamresponsive.png">
-      </p>
-      </details>
-
 
  - ### Future features
       - A background music.
@@ -112,11 +111,18 @@ The purpose of this project is for Project #2(JavaScript), this is part of me ac
  -----     
 ## Typography and color scheme
 ### Typography
-- I used Roboto fonts in this project with fall back being Sans-serif. This Font is simple and adapted to the website and it is linked to the CSS document via @import.
-![HTQ-typhography](/docs/HTQ-typhography.png)
-### Color Scheme
-- In this website I used black #000000 for the Fonts and white #FFFFFF for the text shadow. I also used different colors for the style of the buttons and other backgrounds. like Chocolate tradition #783205 as the main color of the buttons to get its golden style. next are the other colors I used.Alice Blue#F0F8FF,Dark Cornflower #004085, Beau Blue #CCE5FF, Forest Green Web #23903C, Crimson UA #A42834, Lincoln Green #155724, and Persian Plum #721C24. other colors not mentioned are border color and box shadow. i used these colors to match the theme of the website. 
-![HTQ-colorscheme](/docs/HTQ-colorscheme.png)
+   <details><summary>color scheme screen shot</summary>
+      <p> <img src="docs/HTQ-typhography.png"></p>
+      </details>
+
+   - I used Roboto fonts in this project with fall back being Sans-serif. This Font is simple and adapted to the website and it is linked to the CSS document via @import.
+
+### Color Scheme 
+   <details><summary>color scheme screen shot</summary>
+      <p> <img src="docs/HTQ-colorscheme.png"></p>
+      </details>
+   
+   - In this website I used black #000000 for the Fonts and white #FFFFFF for the text shadow. I also used different colors for the style of the buttons and other backgrounds. like Chocolate tradition #783205 as the main color of the buttons to get its golden style. next are the other colors I used.Alice Blue#F0F8FF,Dark Cornflower #004085, Beau Blue #CCE5FF, Forest Green Web #23903C, Crimson UA #A42834, Lincoln Green #155724, and Persian Plum #721C24. other colors not mentioned are border color and box shadow. i used these colors to match the theme of the website.
 -----
 ## Wireframes
 - [Balsamiq](https://balsamiq.com) - i used balsamiq to create [wireframes](https://balsamiq.cloud/shny6lm/pz4i6g4/rE2F0) for my project.
@@ -130,6 +136,7 @@ The purpose of this project is for Project #2(JavaScript), this is part of me ac
 - [Am I Responsive](https://ui.dev/amiresponsive) - - online tool used to create mockup to present responsive design of this project.
 - [Coolors.co](https://coolors.co) - used to create color palette.
 - [Fontawesome](https://fontawesome.com/icons/) - where i import font icons for this project.
+- [favicon.io](https://favicon.io/favicon-generator/) - generator i use to create favicon for this project.
 - [Google Fonts](https://fonts.google.com) - where i import and use font-style for this project.
 - [Git](http://gitscm.com) - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 - [Gitpod](https://gitpod.io) - IDE used to code the project.
@@ -184,6 +191,7 @@ The purpose of this project is for Project #2(JavaScript), this is part of me ac
 - Supported screens
    - Such a viewport was obtained from the am i responsive website where it was used to have an appropriate size for responsive design.
 
+
 ## Deployment
 - via gitpod
    - go to and log in to [github](https://github.com/).
@@ -196,12 +204,15 @@ The purpose of this project is for Project #2(JavaScript), this is part of me ac
    - after that head to [setting](https://github.com/araldwin/Project-2/settings).
    - find and click "Pages" in the Code and Automation column.
    - select "deploy from a branch" in Source, select "main" and "root" in Branch and save.
-![githubdeployment](/docs/githubdeployment.png)
+      ![githubdeployment](/docs/githubdeployment.png)
    - click the given weblink [araldwin.github.io/project-2/](https://araldwin.github.io/Project-2/).
 
 ## Credits
-   - https://www.codingnepalweb.com/quiz-app-with-timer-javascript/ - Tutorials i used.
+   - [trivianerd.com](https://www.trivianerd.com/trivia-questions#history-trivia) - where i get my trivia questions with answers.
+   - [yesviz.com](https://yesviz.com/viewport/) - where i got all my view port for smart phone devices.
+   - [codingnepalweb.com](https://www.codingnepalweb.com/quiz-app-with-timer-javascript/) - Tutorial watched and used to create this game idea.
    - [W3C School](https://www.w3schools.com/) - for more knowledge that I learned.
+   - [stackoverflow.com/](https://stackoverflow.com/) - get ideas how to solve some of problems into my codes.
    - Code institute README.md Template
    - Google images for the background
 ## Acknowledgements

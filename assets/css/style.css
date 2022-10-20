@@ -756,6 +756,19 @@ and (orientation: portrait)  {
 and (height: 1024px) 
 and (orientation:portrait) {
 
+    .info_box .info_title {
+        font-size: 6vmax;
+        line-height: 110px;
+    }
+
+    .info_box .info_list {
+        height: 70%;
+    }
+
+    .info_box .buttons button {
+        height: 6vmax;
+    }
+
     .quiz_box {
         width: 90%;
         height: 90%;    
@@ -784,7 +797,6 @@ and (orientation:portrait) {
     }
 
     .quiz_box .que_sec {
-        height: 85%;
         background-size: cover;
     }
 
@@ -813,7 +825,7 @@ and (orientation:portrait) {
 
     .quiz_box footer {
         font-size: 2.5rem;
-        height: 8%;
+        height: 15%;
     }
 
     footer .next_btn {

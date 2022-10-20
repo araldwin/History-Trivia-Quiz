@@ -36,35 +36,75 @@ The purpose of this project is for Project #2(JavaScript), this is part of me ac
 ## Features
 - ### A Simple, Easy to Remember URL:[History Trivia Quiz](https://araldwin.github.io/Project-2/)
 -----
-Start Quiz
- - buttons so that the User can start a quiz.
-
-Score and Total of questions
- - where the User can see his Score and the number of questions left.
-
-Feedback to answer
- - where the User can see the correct answer when his answer is wrong.
-
-Interact with an element to move on
- - where the User cannot go to the next question until he answers the question whether it is right or wrong.
-
-Quiz timer 
- - Add the quiz timer to limit the time your respondents will have to complete each question. This way you can ensure that the user will not have enough time to search the answers on the web. You'll find this feature in the Extra Options tab at the Quiz options section.
-
-Timer Off
- - Display correct answer.
- - User will not gain correct score.
-
-View correct answer
- - When user selected wrong answer, it will automatically display correct answer.
-   - correct answer with a tick
-   - wrong answer with a xmark
-
-Result at end of quiz
- - Users score will be shown in the end of the quiz, failing score will note "Try Again" Passing score will note "Nice" and Perfect and greater than passing score will note "Congrats!".
+- Main menu of the game with start button.
+   <details><summary>Main menu screen shot</summary>
+   <p> <img src="docs/mainmenu.png"> </p>
+   </details>
+-----
+- Rules of the quiz with option to start or exit the game.
+   - Exit button - click this will return back to main menu
+   - Continue button - click this will proceed to the main game.
+   <details><summary>Rules of the game screen shot</summary>
+   <p> <img src="docs/menuoptions.png"> </p>
+   </details>
+-----
+- Main game
+   - User score that increments every correct answer.
+   - Timer
+   - A display of the question and choices of answer.
+   - Display tick when answer is correct and cross if answer is wrong.
+   - Total of questions and question number.
+   - Next button after answering each question.
+      <details><summary>Main game screen shot</summary>
+      <p> <img src="docs/maingame.png"> </p>
+      </details>
+   -----
+   - If User answer is wrong it will display the correct answer, and it will not increment user score.
+      <details><summary>display user correct answer screen shot</summary>
+      <p> <img src="docs/wronganswer.png"> </p>
+      </details>
+   -----
+   - If User timer is off it will display correct answer but will not increment score.
+      <details><summary>display timer off screen shot</summary>
+      <p> <img src="docs/timeroff.png"> </p>
+      </details>
+-----
+- End game
+   - Display final score of the User.
+   - Button to quit the game and return to Main menu.
+      <details><summary>display end game screen shot</summary>
+      <p> <img src="docs/endgame.png"> </p>
+      </details>
 -----
 - ### This website is mobile friendly or responsive design that fits standard screen sizes.
- ![HTQ-iamresponsive](/docs/HTQ-iamresponsive.png)
+      
+      ```
+      Desktop
+      1600x992px 
+      
+      Laptop
+      1280x802px 
+      
+      Tablet
+      768x1024px 
+      
+      Mobile
+      320x480px 
+
+      Apple devices
+      iPad Pro = 1024x1366px
+      iPad and iPad Mini = 768x1024px
+      iPad Air = 820x1180px
+      iPhone 13 Pro Max = 428x926px
+      iPhone 13, iPhone 13 Pro, iPhone 12 Pro = 390x844px
+      iPhone X = 375x812px
+      ```
+
+   <details><summary>amiresponsive screen shot</summary>
+      <p> <img src="docs/HTQ-iamresponsive.png">
+      </p>
+      </details>
+
 
  - ### Future features
       - A background music.

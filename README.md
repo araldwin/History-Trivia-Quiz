@@ -116,7 +116,7 @@ The purpose of this project is for Project #2(JavaScript), this is part of me ac
  -----     
 ## Typography and color scheme
 ### Typography
-   <details><summary>Typography screen shot</summary>
+   <details><summary>typography screen shot</summary>
       <p> <img src="docs/HTQ-typhography.png"></p>
       </details>
 
@@ -244,6 +244,7 @@ The purpose of this project is for Project #2(JavaScript), this is part of me ac
    - click the given weblink [araldwin.github.io/project-2/](https://araldwin.github.io/Project-2/).
 
 ## Credits
+   - [freepik.com](https://www.freepik.com/) - where i get my 404page image.
    - [trivianerd.com](https://www.trivianerd.com/trivia-questions#history-trivia) - where i get my trivia questions with answers.
    - [yesviz.com](https://yesviz.com/viewport/) - where i got all my view port for smart phone devices.
    - [codingnepalweb.com](https://www.codingnepalweb.com/quiz-app-with-timer-javascript/) - Tutorial watched and used to create this game idea.

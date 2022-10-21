@@ -149,6 +149,7 @@ The purpose of this project is for Project #2(JavaScript), this is part of me ac
 - [Visual Studio Code for Windows]() - IDE used to code the project.
 - [Unsplash](https://www.unsplash.com/) - for the webpage main background image.
 - [Windows Snipping Tool] - used to save the screen shot.
+- [Google developer tools]
 -----
 ## Testing
 ### 7.1 Code Validation
@@ -195,7 +196,15 @@ The purpose of this project is for Project #2(JavaScript), this is part of me ac
 
 - Supported screens
    - Such a viewport was obtained from the am i responsive website where it was used to have an appropriate size for responsive design.
-
+   - Apple products:
+      - iPad Pro = 1024x1366px
+      - iPad and iPad Mini = 768x1024px
+      - iPad Air = 820x1180px
+      - iPhone 13 Pro Max = 428x926px
+      - iPhone 13, iPhone 13 Pro, iPhone 12 Pro = 390x844px
+      - iPhone X = 375x812px
+      - iPhone 5 = 320x568
+   - I used google developer tools to test the responsiveness of given iPad and iPhone devices.  
 
 ## Deployment
 - via gitpod

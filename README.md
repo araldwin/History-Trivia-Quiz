@@ -79,7 +79,7 @@ The purpose of this project is for Project #2(JavaScript), this is part of me ac
 -----
 
 - 404page
-    <details><summary>display end game screen shot</summary>
+    <details><summary>404page screen shot</summary>
       <p> <img src="docs/404page.png"> </p>
       </details>
 
@@ -116,7 +116,7 @@ The purpose of this project is for Project #2(JavaScript), this is part of me ac
  -----     
 ## Typography and color scheme
 ### Typography
-   <details><summary>color scheme screen shot</summary>
+   <details><summary>Typography screen shot</summary>
       <p> <img src="docs/HTQ-typhography.png"></p>
       </details>
 

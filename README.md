@@ -217,16 +217,16 @@ The purpose of this project is for Project #2(JavaScript), this is part of me ac
 -----
 ### 7.4 Test Cases
 | Test<br>Case<br>ID | Test Case<br>Description | Test Steps | Test Data | Expected<br>Result | Actual<br>Result| Pass/Fail |
-| :---: | :---: | --- | --- |--- | :---: | :---: |
+| :---: | :---: | --- | --- | --- | :---: | :---: |
 | TC01 | Click Start Quiz. | 1. Go to https://araldwin.github.io/Project-2/.<br>2. Click Start Quiz button. | Click Start Quiz button | 1. User must proceed to<br>rules of the quiz.<br>2. User should see two box,<br>Exit and Continue Box. | As expected | Pass<br><details><summary>TC01 screen shot</summary> <img src="docs/tc01.png"> </p> </details> |
-| TC02 | Click Exit Quiz<br>button in Rules of the<br>quiz. | 1. Continuing TC01 in Rules of the quiz box.<br>2. Click Exit quiz button  | Click Exit quiz button | 1. User will Exit rules of the quiz box.<br> 2. User will proceed home<br>where the Start Quiz button is<br>afer clicking Exit quiz button.  | As expected | Pass <br><details><summary>TC02 screen shot</summary><img src="docs/tc02.png"></p></details> |
-| :---: | :---: | --- | --- |--- | :---: | :---: |
-| :---: | :---: | --- | --- |--- | :---: | :---: |
-| :---: | :---: | --- | --- |--- | :---: | :---: |
-| :---: | :---: | --- | --- |--- | :---: | :---: |
-| :---: | :---: | --- | --- |--- | :---: | :---: |
-| :---: | :---: | --- | --- |--- | :---: | :---: |
-| :---: | :---: | --- | --- |--- | :---: | :---: |
+| TC02 | Click Exit Quiz<br>button in Rules of the<br>quiz. | 1. Continuing TC01 in Rules of the quiz box.<br>2. Click Exit quiz button.  | Click Exit quiz button | 1. User will Exit rules of the quiz box.<br> 2. User will proceed home<br>where the Start Quiz button is,<br>afer clicking Exit quiz button.  | As expected | Pass<br><details><summary>TC02 screen shot</summary><img src="docs/tc02.png"></p></details> |
+| TC03 |  Click Continue<br>button in Rules of the<br>quiz. | 1. Continuing TC01 in Rules of the quiz box.<br>2. Click continue button. | Click continue button | 1. User must proceed to<br>Main Game.<br> | As expected | Pass<br><details><summary>TC03 screen shot</summary><img src="docs/tc003.png"></p></details> |
+| TC04 | When User select Correct<br>answer | 1. In Main Game Question number 1.<br>2. Click Fire(correct answer). | Click on Fire | 1. User score will Increment.<br>2. Timer will stop after selecting the answer.<br>3. A tick icon will display when user answer is correct.<br>4. Next button will appear at the right bottom corner of the box. | As expected | Pass<br><details><summary>TC04 screen shot</summary><img src="docs/tc04.png"></p></details> |
+| TC05 | Proceeding to the next Question. | 1. In Main Game Question number 1.<br>2. User select an answer.<br>3. Click Next. | 1. Select Answer<br>2. Click Next button. | 1. User will proceed to the next question number 2.<br>2. it will increment Question index. | As expected | Pass<br><details><summary>TC05 screen shot</summary><img src="docs/tc05.png"></p></details> |
+| TC06 | When User select Incorrect<br>answer | 1. Continuing TC05 question number 2.<br>2. Click Virgin(incorrect answer).  | Click on Virgin | 1. User score will not increment.<br>2. Timer will stop after selecting the answer.<br>3. A cross icon will display when user answer is incorrect.<br>4. It will display the correct answer with tick icon.<br>5. Next button will appear.| As expected | Pass<br><details><summary>TC06 screen shot</summary><img src="docs/tc06.png"></p></details> |
+| TC07 | When User run out of time. | 1. Continuing TC06<br>question number 2<br>2. Click Next button to proceed to the next<br>question number 3.<br>3. Let the time run out. |  Let the time run out | 1. User score will not increment.<br>2. Timer display Time left will change into Time Off.<br>3. The correct answer will display.<br>4. Next button will appear. | As expected | Pass<br><details><summary>TC07 screen shot</summary><img src="docs/tc07.png"></p></details> |
+| TC08 | End of the game<br>Final score | 1. Answer all the 10 question.<br>2. On 10th question<br>click next button.  | click next button | 1. It will diplay a message and quote.<br>2. Display User total score out of 10.<br>3. Quit quiz button display  | As expected | Pass<br><details><summary>TC08 screen shot</summary><img src="docs/tc08.png"></p></details> |
+| TC09 | Click Quit quiz button | 1. Continuing TC08 end game.<br>2. Click Quit quiz button. | Click Quit quiz button | 1. User will proceed to Main menu/Home. | As expected | Pass<br><details><summary>TC09 screen shot</summary><img src="docs/tc09.png"></p></details |
 
 ## Deployment
 - via gitpod

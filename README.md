@@ -11,6 +11,7 @@
    - 7.1 Code Validation
    - 7.2 fixed bugs
    - 7.3 supported screens and browsers
+   - 7.4 test cases
 8. [Deployment](#deployment)
    - via gitpod
    - via github pages

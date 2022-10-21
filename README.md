@@ -85,32 +85,28 @@ The purpose of this project is for Project #2(JavaScript), this is part of me ac
 
 
 -----
-- ### This website is mobile friendly or responsive design that fits standard screen sizes.
+- ### This website is mobile friendly(mostly Apple products) or responsive design that fits only in standard screen sizes given below.
 
    <details><summary>amiresponsive screen shot</summary>
       <p> <img src="docs/HTQ-iamresponsive.png"></p>
       </details>
 
       ```
-      Desktop
-      1600x992px 
+      Desktop = 1600x992px 
+      Laptop = 1280x802px 
+      Tablet = 768x1024px 
+      Mobile = 320x480px 
       
-      Laptop
-      1280x802px 
-      
-      Tablet
-      768x1024px 
-      
-      Mobile
-      320x480px 
-
-      Apple devices
+      Apple devices:
       iPad Pro = 1024x1366px
       iPad and iPad Mini = 768x1024px
       iPad Air = 820x1180px
       iPhone 13 Pro Max = 428x926px
       iPhone 13, iPhone 13 Pro, iPhone 12 Pro = 390x844px
       iPhone X = 375x812px
+      iPhone 5 = 320x568
+
+      Xiaomi mi10T 5g = 393x873px
       ```
 
 

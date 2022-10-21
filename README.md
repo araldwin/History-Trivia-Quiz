@@ -152,11 +152,13 @@ The purpose of this project is for Project #2(JavaScript), this is part of me ac
 - [Google developer tools]
 -----
 ## Testing
+-----
 ### 7.1 Code Validation
+-----
 - [JS Hint](https://jshint.com/) - used to check JavaScript codes.
 ![HTQ-Jshint](/docs/HTQ-Jshint.png)
------
 
+-----
 - [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/#validate_by_input) - used to validate the project css.
 <p>
     <a href="http://jigsaw.w3.org/css-validator/check/referer">
@@ -174,21 +176,28 @@ The purpose of this project is for Project #2(JavaScript), this is part of me ac
 </p>
 
 ![HTQ-W3CCSSValidator](/docs/HTQ-W3CCSSValidator.png)
+
 -----
 - [Nu Html Checker](https://validator.w3.org/nu/#textarea) - used to check the project html.
 #### Index.html
 ![HTQ-HTMLchecker](/docs/HTQ-HTMLchecker.png)
+
+-----
+### Lighthouse report
+![HTQ-lighthouse](/docs/HTQ-lighthouse.png)
+
+-----
 ### 7.2 fixed bugs
+-----
 ![HTQ-fixedbug](/docs/HTQ-fixedbug.png)
 - i had a problem with the title box where even if i click start qiuz it doesn't disappear, which it should disappear.
 - to solve this problem i simply change the:
     - titleBox_rmv.classList.remove("title_box"); into titleBox_rmv.style.display = "none";
     - titleBox_rmv.classList.add("title_box"); into titleBox_rmv.style.display = "block";
------
-### Lighthouse report
-![HTQ-lighthouse](/docs/HTQ-lighthouse.png)
 
+-----
 ### 7.3 supported screens and browsers
+-----
 - Supported browsers
    - Google Chrome
    - Microsoft Edge
@@ -205,6 +214,19 @@ The purpose of this project is for Project #2(JavaScript), this is part of me ac
       - iPhone X = 375x812px
       - iPhone 5 = 320x568
    - I used google developer tools to test the responsiveness of given iPad and iPhone devices.  
+-----
+### 7.4 Test Cases
+| Test<br>Case<br>ID | Test Case<br>Description | Test Steps | Test Data | Expected<br>Result | Actual<br>Result| Pass/Fail |
+| :---: | :---: | --- | --- |--- | :---: | :---: |
+| TC01 | Click Start Quiz. | 1. Go to https://araldwin.github.io/Project-2/.<br>2. Click Start Quiz button. | Click Start Quiz button | 1. User must proceed to<br>rules of the quiz.<br>2. User should see two box,<br>Exit and Continue Box. | As expected | Pass<br><details><summary>TC01 screen shot</summary> <img src="docs/tc01.png"> </p> </details> |
+| TC02 | Click Exit Quiz<br>button in Rules of the<br>quiz. | 1. Continuing TC01 in Rules of the quiz box.<br>2. Click Exit quiz button  | Click Exit quiz button | 1. User will Exit rules of the quiz box.<br> 2. User will proceed home<br>where the Start Quiz button is<br>afer clicking Exit quiz button.  | As expected | Pass <br><details><summary>TC02 screen shot</summary><img src="docs/tc02.png"></p></details> |
+| :---: | :---: | --- | --- |--- | :---: | :---: |
+| :---: | :---: | --- | --- |--- | :---: | :---: |
+| :---: | :---: | --- | --- |--- | :---: | :---: |
+| :---: | :---: | --- | --- |--- | :---: | :---: |
+| :---: | :---: | --- | --- |--- | :---: | :---: |
+| :---: | :---: | --- | --- |--- | :---: | :---: |
+| :---: | :---: | --- | --- |--- | :---: | :---: |
 
 ## Deployment
 - via gitpod

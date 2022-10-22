@@ -1,3 +1,4 @@
+/* importing google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
 
 * {
@@ -68,6 +69,7 @@ body {
     font-weight: 700;
 }
 
+/* Golden Button styling */
 .golden_btn {
     font-family: inherit;
     font-weight: 300;
@@ -385,6 +387,7 @@ footer .next_btn {
     cursor: pointer
 }
 
+/* 404 page */
 .not-found-container {
     border-radius: 20px;
     position: absolute;
@@ -430,6 +433,8 @@ footer .next_btn {
     text-transform: uppercase;
 }
 
+/* responsive design */
+/* media quiries for desktop,laptop, and tablet. */
 @media only screen and (max-width: 1920px)
 and (max-height: 1080px) {
 
@@ -582,6 +587,7 @@ and (max-height: 1080px) {
     }
 }
 
+/* media quiries for ipad pro */
 @media only screen and 
 (width: 1024px)
 and (height: 1366px) 
@@ -733,6 +739,7 @@ and (orientation: portrait)  {
     }
 }
 
+/* media quiries for ipad */
 @media only screen and (width: 768px) 
 and (height: 1024px) 
 and (orientation:portrait) {
@@ -844,6 +851,7 @@ and (orientation:portrait) {
     }
 }
 
+/* media quiries for ipad air */
 @media only screen and (width: 820px) 
 and (height: 1180px) 
 and (orientation:portrait) {
@@ -1002,7 +1010,7 @@ and (orientation:portrait) {
     }
 }
 
-
+/* media quiries for iphone 13 and iphone 13 pro */
 @media only screen and (width: 390px) 
 and (height: 844px) 
 and (orientation:portrait) {
@@ -1142,6 +1150,7 @@ and (orientation:portrait) {
     }
 }
 
+/* media quiries for iphone 13 pro max */
 @media only screen and (width: 428px) 
 and (height: 926px) 
 and (orientation:portrait) {
@@ -1282,6 +1291,7 @@ and (orientation:portrait) {
 }
 
 
+/* media queries for xiami mi 10t */
 @media only screen and (max-width: 394px) 
 and (max-height: 874px) 
 and (orientation:portrait) {
@@ -1421,6 +1431,7 @@ and (orientation:portrait) {
     }
 }
 
+/* media quiries for iphone 12 pro, iphone x */
 @media only screen and (max-width: 390px) 
 and (max-height: 844px) 
 and (orientation:portrait) {
@@ -1559,7 +1570,7 @@ and (orientation:portrait) {
     }
 }
 
-
+/* media quiries for small device like  iphone 5 */
 @media only screen and (min-width: 320px) 
 and (max-height: 568px) 
 and (orientation:portrait) {

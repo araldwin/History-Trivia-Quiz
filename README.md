@@ -23,17 +23,16 @@ The purpose of this project is for Project #2(JavaScript), this is part of me ac
 
 ## User stories
  as a User:
-   - there should be a button in the main menu that I can click to start the game. 
-   - I should also be able to see what the rules of the game are.
-   - must have the option to continue or exit the game before starting such game.
-   - while I am playing I should see my score.
-   - I should have a choice of my answer for the questions.
-   - there should also be a timer that I can see on display.
-   - I should be able to see the number of questions and how many more questions I have.
-   - when I answer the questions wrong I should see the correct answer.
-   - and when my answer is correct, my score should increase.
-   - when I run out of time and the question is not answered,<br>I should still see the correct answer, but my score will not be increased or decreased.
-   - after answering all the questions I should see my total score.
+   - i would like to start the game. 
+   - i would like to know the rules of the game.
+   - before starting the game i would like to have options to exit or continue the game.
+   - i would like to see my score.
+   - i would like to see a timer.
+   - i would like to see what question number am i while playing the game.
+   - i would like to see the correct asnwer if my answer is wrong.
+   - i would like to proceed to next question.
+   - i would like to see the total of my score after answering all the questions of the game.
+   
 ## Features
 - ### A Simple, Easy to Remember URL:[History Trivia Quiz](https://araldwin.github.io/Project-2/)
 -----

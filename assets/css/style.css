@@ -1447,7 +1447,7 @@ and (orientation:portrait) {
 
     .title_box p {
         font-size: 5vmin;
-        line-height: 80px;
+        line-height: 3rem;
     }
 
     .start_btn {
@@ -1475,12 +1475,12 @@ and (orientation:portrait) {
 
     .info_box .info_list .info{
         font-size: 4vmin;
-        line-height: 40px;
-        padding: 10px 0;
+        line-height: 1.3rem;
+        padding: 2vmax 0;
     }
 
     .info_box .buttons {
-        height: 80px;
+        height: 10%;
     }  
 
     .info_box .buttons button {
@@ -1510,7 +1510,7 @@ and (orientation:portrait) {
     .quiz_box header .timer .timer_sec {
         font-size: 5vmin;
         height: 90%;
-        line-height: 150%;
+        line-height: 3.5vh;
     }
 
     .quiz_box header .timer .time_text {
@@ -1561,7 +1561,7 @@ and (orientation:portrait) {
     }
 
     .result_box .quote {
-        font-size: 7vmin;
+        font-size: 6vmin;
     }
 
     .result_box .buttons button {
@@ -1569,6 +1569,7 @@ and (orientation:portrait) {
         font-size: 5vmin;
     }
 }
+
 
 /* media quiries for small device like  iphone 5 */
 @media only screen and (min-width: 320px) 

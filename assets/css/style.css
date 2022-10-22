@@ -1308,7 +1308,7 @@ and (orientation:portrait) {
 
     .title_box p {
         font-size: 5vmin;
-        line-height: 80px;
+        line-height: 8vh;
     }
 
     .start_btn {
@@ -1326,8 +1326,7 @@ and (orientation:portrait) {
     
     .info_box .info_title{
         height: 10%;
-        font-size: 6vmin;
-        line-height: 30px;
+        font-size: 3vh;
     }
 
     .info_box .info_list {
@@ -1336,12 +1335,12 @@ and (orientation:portrait) {
 
     .info_box .info_list .info{
         font-size: 4vmin;
-        line-height: 40px;
-        padding: 10px 0;
+        line-height: 1.3rem;
+        padding: 2vmax 0;
     }
 
     .info_box .buttons {
-        height: 80px;
+        height: 10%;
     }  
 
     .info_box .buttons button {
@@ -1371,7 +1370,7 @@ and (orientation:portrait) {
     .quiz_box header .timer .timer_sec {
         font-size: 5vmin;
         height: 90%;
-        line-height: 150%;
+        line-height: 3.5vh;
     }
 
     .quiz_box header .timer .time_text {
@@ -1421,10 +1420,6 @@ and (orientation:portrait) {
         font-size: 6vmin;
     }
 
-    .result_box .quote {
-        font-size: 7vmin;
-    }
-
     .result_box .buttons button {
         height: 7vmin;
         font-size: 5vmin;
@@ -1465,8 +1460,8 @@ and (orientation:portrait) {
     
     .info_box .info_title{
         height: 10%;
-        font-size: 6vmin;
-        line-height: 30px;
+        font-size: 3.5vmax;
+        line-height: 100%;
     }
 
     .info_box .info_list {

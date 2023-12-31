@@ -34,7 +34,7 @@ The purpose of this project is for Project #2(JavaScript), this is part of me ac
    - i would like to see the total of my score after answering all the questions of the game.
 
 ## Features
-- ### A Simple, Easy to Remember URL:[History Trivia Quiz](https://araldwin.github.io/Project-2/)
+- ### A Simple, Easy to Remember URL:[History Trivia Quiz](https://araldwin.github.io/History-Trivia-Quiz/)
 -----
 - Main menu of the game with start button.
    <details><summary>Main menu screen shot</summary>
@@ -235,12 +235,12 @@ The purpose of this project is for Project #2(JavaScript), this is part of me ac
 
 - via github
    - go to and log in to [github](https://github.com/).
-   - go to repository and choose [Project-2](https://github.com/araldwin/Project-2).
-   - after that head to [setting](https://github.com/araldwin/Project-2/settings).
+   - go to repository and choose [History-Trivia-Quiz](https://github.com/araldwin/History-Trivia-Quiz).
+   - after that head to [setting](https://github.com/araldwin/History-Trivia-Quiz/settings).
    - find and click "Pages" in the Code and Automation column.
    - select "deploy from a branch" in Source, select "main" and "root" in Branch and save.
       ![githubdeployment](/docs/githubdeployment.png)
-   - click the given weblink [araldwin.github.io/project-2/](https://araldwin.github.io/Project-2/).
+   - click the given weblink [https://araldwin.github.io/History-Trivia-Quiz/](https://araldwin.github.io/History-Trivia-Quiz/).
 
 ## Credits
    - [freepik.com](https://www.freepik.com/) - where i get my 404page image.
